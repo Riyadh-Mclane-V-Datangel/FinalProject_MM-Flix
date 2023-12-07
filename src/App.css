@@ -1,0 +1,83 @@
+  .App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar li {
+    margin: 0 15px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  a:hover{
+    background-image: linear-gradient(to bottom right, rgb(236, 99, 7), rgb(0, 4, 255));
+  }
+
+  .movie-list {
+    display: auto;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  
+.movie-card {
+  margin: 20px 10px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 200px;
+  overflow: hidden;
+  transition: border-color 0.3s, transform 0.3s;
+  cursor: pointer; 
+  display: inline-block;
+}
+
+.movie-card img {
+  width: 100%; /* Ensure the image takes the full width of its container */
+  height: 300px; /* Maintain aspect ratio */
+}
+
+.movie-card:hover {
+  border-color: #007bff;
+  transform: scale(1.05);
+}
+
+.movie-card:hover {
+  border-color: #007bff;
+  transform: scale(1.05); 
+}
+
+
+  body{
+    background-image: linear-gradient(to bottom right, rgb(236, 99, 7), rgb(0, 4, 255));
+  }

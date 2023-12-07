@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FinalProject_MM-Flix/static/css/main.ca045180.css",
+    "main.js": "/FinalProject_MM-Flix/static/js/main.d813a0ff.js",
+    "static/js/787.c4df67fb.chunk.js": "/FinalProject_MM-Flix/static/js/787.c4df67fb.chunk.js",
+    "index.html": "/FinalProject_MM-Flix/index.html",
+    "main.ca045180.css.map": "/FinalProject_MM-Flix/static/css/main.ca045180.css.map",
+    "main.d813a0ff.js.map": "/FinalProject_MM-Flix/static/js/main.d813a0ff.js.map",
+    "787.c4df67fb.chunk.js.map": "/FinalProject_MM-Flix/static/js/787.c4df67fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca045180.css",
+    "static/js/main.d813a0ff.js"
+  ]
+}
